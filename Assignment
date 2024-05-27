@@ -11,7 +11,7 @@ function mintNFT(name,date,price){
 
 function listNFTs(){
     for (let i =0; i<NFT_Pool.length; i++){
-        console.log(`\n NFT ${i + 1}:`);
+        console.log(`\n ID ${i + 1}:`);
         console.log(`Name: ${NFT_Pool[i].name}`);
         console.log(`Date: ${NFT_Pool[i].date}`);
         console.log(`Price ${NFT_Pool[i].price}`);
